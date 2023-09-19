@@ -1,0 +1,54 @@
+
+#experience{
+    position: relative;
+    flex: center;
+    border:10px;
+    }
+.experience__container{
+    width: 100%;
+    height: 350px;
+    padding-top: 50px;
+    border-color: aqua;
+    border: 5px;
+   
+}
+
+.experience__container .button__container{
+    height: 15%
+
+}
+
+.experience__container .button__container button{
+    width: 200px;
+    height: 100%;
+    float: left;
+    /* border:none; */
+    border-radius: 0.05px;
+    cursor: pointer;
+    padding:10px;
+    border-color: rgb(85,85,85);;
+    background-color: rgb(25,25,25);
+}
+
+.experience__section__p1{
+    text-align: left;
+    color:aliceblue;
+}
+.button__container{
+    background-color: rgb(25,25,25);
+}
+.experience__container .button__container button:hover{
+    background-color: rgb(56, 55, 55);
+    
+}
+
+.experience__container .tabPanel{
+    height: 80vh;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding-top: 105px;
+    box-sizing: border-box;
+    display: none;
+    
+}

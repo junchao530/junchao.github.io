@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jun Chao Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+    <link rel="stylesheet" href="about.css"/>
+    <link rel="stylesheet" href="experience.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"> Jun Chao</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+                
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Jun Chao</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()" >About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id= "profile">
+        <div class="section__pic-container">
+            <img class ="pfp"src="./assets/pfp.jpg" alt="Jun Chao pfp">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Jun Chao</h1>
+            <p class="section__text__p2">Electrical and Computer Engineering Student</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/Jun Chao Resume.pdf')">
+            Download Resume</button>
+            <button class="btn btn-color-1" onclick="location.href=('./#contact')">
+                Contact Info</button>
+        </div>
+        <div id="socials-container">
+            <img src="./assets/linkedin.png" alt ="My Linkdn profile"
+            class="icon" onclick ="location.href='https://linkedin.com/in/jun-chao'"/>
+
+            <img src="./assets/github.png" alt ="My GitHub profile"
+            class="icon" onclick ="location.href='https://github.com/junchao530'"/>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about__section__text">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="detials-containers">
+                    <img src="./assets/experience.png"alt="Intrests" class="icon_static">
+                    <h3>Interests</h3>
+                   <p>Robotics <br/> Machine Learning <br/> Research </p> 
+                </div>
+                <div class="detials-containers">
+                <img src="./assets/education.png"alt="school" class="icon_static">
+                <h3>Education</h3>
+               <p>University of Calgary B.Sc. <br/> Electrical and Computer Engineering <br/> GPA: 3.89 </p> 
+               </div>
+               <div class="detials-containers">
+                <img src="./assets/computer.jpg"alt="python" class="icon_static">
+                <h3>Coding Languages</h3>
+               <p>Python:Pandas, Numpy, TensorFLow<br/> C++:OOP, Arduino <br/>Java</p> 
+               </div>
+               <div class="detials-containers">
+                <img src="./assets/computer.jpg"alt="python" class="icon_static">
+                <h3>Coding Languages</h3>
+               <p>Python:Pandas, Numpy, TensorFLow<br/> C++:OOP, Arduino <br/>Java</p> 
+               </div>
+            </div>
+        </div> 
+        <div class="about_img_containers">
+        
+            <div class="about_description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis et tenetur dignissimos qui quasi aliquid ad, similique amet quo animi nisi eaque velit error quia dolores iure facere aperiam adipisci! Laboriosam pariatur eos doloribus odit vel nisi a velit quasi nobis maxime voluptates, molestias accusamus accusantium delectus tempore non similique dolores eligendi obcaecati modi odio explicabo adipisci quos. Consequuntur obcaecati vero laborum, dolores cupiditate repudiandae hic in nobis maxime explicabo quibusdam voluptas itaque, enim ullam nisi esse sint cum. Perspiciatis delectus sequi cumque recusandae dicta quia ad nemo est veritatis, atque ratione distinctio quo vero repudiandae cupiditate dolor ipsa eaque!</p>
+            </div>
+
+            <div class="about_image">
+                <img src="./assets/A7400479.jpg" alt="Robotics"/>
+            </div>
+           
+        </div>        
+    
+    </section>
+    
+    <section id="experience">
+    <div >
+        <h1 class="title"> Experience</h1>
+        
+    </div>
+    <div class ="experience__container">
+        <div class ="button__container">
+            <button onclick ="showPanel(0,'#373737')" class="experience__section__p1">Data Analyst Researchesr</button>
+            <button onclick="showPanel(1,'#373737')" class="experience__section__p1">Software Lead</button>
+            <button onclick="showPanel(2,'#373737')" class="experience__section__p1">Private Tutor</button>
+            <button onclick="showPanel(3,'#373737')" class="experience__section__p1">Student Government</button>
+        </div>
+        <div class="tabPanel">Data Analyst Researcher</div>
+        <div class="tabPanel">Software Lead</div>
+        <div class="tabPanel">Private Tutor</div>
+        <div class="tabPanel">Student Government</div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+        
