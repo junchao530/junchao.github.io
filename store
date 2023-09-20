@@ -1,0 +1,83 @@
+.experience__container .button__container button{
+    width: 200px;
+    height: 100%;
+    float: left;
+    /* border:none; */
+    border-radius: 0.05px;
+    cursor: pointer;
+    padding:10px;
+    border-color: rgb(85,85,85);;
+    background-color: rgb(25,25,25);
+}
+
+.experience__section__p1{
+    text-align: left;
+    /* color:aliceblue; */
+}
+
+.experience__container .button__container button:hover{
+    background-color: rgb(56, 55, 55);
+    
+}
+
+.experience__container .tabPanel{
+    height: 80vh;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding-top: 105px;
+    box-sizing: border-box;
+    display: none;
+    
+}
+
+
+
+
+#experience{
+    position: relative;
+    flex: center;
+
+    }
+
+.expereince__title{
+    padding-bottom: 50px;
+}
+
+
+.experience__container{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 1.5rem;
+    border: rgb(53,53,45) 0.1rem solid;
+    /* border-color: rgb(163,163,163); */
+   
+}
+
+.button__container{
+    display: flex;
+    flex-direction: row; /* Stack buttons vertically */
+    justify-content: center; /* Center buttons vertically within their container */
+    align-items: center; /* Center buttons horizontally within their container */
+    margin-bottom: 20px; 
+}
+.experience__section__p1{
+    border: none;
+    padding: 5px;
+    background: none;
+    flex: center;
+    cursor: pointer;
+    font-size: large;
+}
+
+.experience__section__p1:hover{
+    border-bottom: 3px solid black;
+}
+
+.tabPanel{
+    text-align: center;
+}
+

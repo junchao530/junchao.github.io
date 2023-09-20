@@ -13,11 +13,12 @@ function showPanel(panelIndex, colorCode){
     
 
     tabButtons.forEach(function(node){
+        node.style.textDecoration = "none"; 
         node.style.backgroundColor="";
         node.style.color="";
     });
     tabButtons[panelIndex].style.backgroundColor=colorCode;
-    tabButtons[panelIndex].style.color="white";
+    tabButtons[panelIndex].style.textDecoration = "underline";
     tabPanels.forEach(function(node){
         node.style.display="none";
     });
@@ -25,4 +26,22 @@ function showPanel(panelIndex, colorCode){
     tabPanels[panelIndex].style.backgroundColor=colorCode;
 }
 
-showPanel(0,'#373737')
+
+function showPanel(panelIndex, colorCode){
+    
+
+    tabButtons.forEach(function(node){
+        node.style.textDecoration = "none"; 
+        node.style.backgroundColor="";
+        node.style.color="";
+    });
+    tabButtons[panelIndex].style.backgroundColor=colorCode;
+    tabButtons[panelIndex].style.textDecoration = "underline";
+    tabPanels.forEach(function(node){
+        node.style.display="none";
+    });
+    tabPanels[panelIndex].style.display="block";
+    tabPanels[panelIndex].style.backgroundColor=colorCode;
+}
+
+showPanel(0,'#FFFFF')
