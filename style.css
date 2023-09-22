@@ -35,6 +35,8 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 12vh;
+    /* position: fixed; Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
     
     
 }
@@ -47,7 +49,7 @@ nav{
     padding-left: 10px;
     padding-right: 10px;
     border-bottom: 1px solid black;
-
+    
 }
 
 a{

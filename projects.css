@@ -1,0 +1,59 @@
+.project-border{
+    border-radius: 2rem;
+    border: rgb(53,53,45) 0.1rem solid;
+    border-color: rgb(163,163,163);
+
+}
+.project-container {
+    
+    padding: 50px;
+    align-items: flex-start;
+    display: flex;
+}
+.project-video-container {
+
+    width: 600px; /* Fixed width for the video container */
+    height: auto;
+    margin-right: 10px; /* Add space between the video and description */
+    overflow: hidden; 
+}
+
+/* Styles for the video on the left */
+.project-video {
+    width:100%;
+    height: auto;
+    
+}
+
+/* Styles for the text description and button on the right */
+.project-details {
+    flex: 1;
+}
+
+/* Optional: Add additional styling for the text description (font size, color, etc.) */
+.project-details h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.project-details p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Styles for the button */
+.project-button {
+    text-align: left;
+}
+
+/* Optional: Customize the button style */
+.project-button a {
+    border-radius: 2rem;
+    border: rgb(53,53,45) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
