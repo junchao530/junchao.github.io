@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="about.css"/>
     <link rel="stylesheet" href="experience.css"/>
     <link rel="stylesheet" href="projects.css"/>
+    <link rel="stylesheet" href="contact.css"/>
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo"> Jun Chao</div>
+        <div class="logo"> Jun Chao </div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -20,7 +21,6 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-                
         </div>
     </nav>
     <nav id="hamburger-nav">
@@ -41,12 +41,23 @@
     </nav>
     <section id= "profile">
         <div class="section__pic-container">
-            <img class ="pfp"src="./assets/pfp.jpg" alt="Jun Chao pfp">
+            <img class ="section__pic"src="./assets/pfp.jpg" alt="Jun Chao pfp">
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Jun Chao</h1>
-            <p class="section__text__p2">Electrical and Computer Engineering Student</p>
+            <p class="section__text__p2"><span class="auto-type"></span></p>
+            
+            <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+            <script>
+                var type = new Typed(".auto-type", {
+                    strings: ["Electrical and Computer Engineering Student","Data Analyist Reseracher","Robotics Technical Team Founder"],
+                    typeSpeed: 50,
+                    backSpeed: 50,
+                    loop: true,
+        
+                })
+            </script>
         <div class="btn-container">
             <button class="btn btn-color-2" onclick="window.open('./assets/Jun Chao Resume.pdf')">
             Download Resume</button>
@@ -100,9 +111,8 @@
             <div class="about_image">
                 <img src="./assets/A7400479.jpg" alt="Robotics"/>
             </div>
-           
         </div>        
-    
+
     </section>
     
     <section id="experience">
@@ -111,11 +121,11 @@
         <p class="experience__text__p2">Technical Expereince</p>
     </div>
      
-   
+
     <div class ="experience__container">
         <div class ="button__container">
             <button onclick ="showPanel(0,'#FFFFFF')" class="experience__section__p1">Data Analyst Researchesr</button>
-            <button onclick="showPanel(1,'#FFFFFF')" class="experience__section__p1">Software Lead</button>
+            <button onclick="showPanel(1,'#FFFFFF')" class="experience__section__p1">Technical Project Founder</button>
         </div>
         <div class="tabPanel">something</div>
         <div class="tabPanel">Software Lead</div>
@@ -142,8 +152,6 @@
           
         </div>
     
-        
-
     <div></div>
     </section>
 
@@ -192,9 +200,44 @@
                 </div>
             </div>
         </div>
-      
-    
+        
+    </section>
 
+    <section id="contact">
+        <p class="section__text__p1"> Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-conatiner">
+            <div class="contact-info-container">
+                <img
+                src="./assets/email.png"
+                alts="Email Icon"
+                class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:junchao530@gmail.com"> junchao530@mail.com </a> </p>
+            </div>
+            <div class="contact-info-container">
+                <img
+                src="./assets/linkedin.png"
+                alts="Email Icon"
+                class="icon contact-icon"
+                />
+                <p><a href="https://linkedin.com/in/jun-chao">LinkdIn</a></p>
+            </div>
+        </div>
+       <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#168; 2023 Jun Chao. All Rights Reserved.</p>
+       </footer>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>

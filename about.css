@@ -1,5 +1,6 @@
 #about{
 position: relative;
+padding-top: 50px;
 }
 
 .about-containers{
@@ -56,4 +57,21 @@ position: relative;
 .about_image{
     flex:1;
     text-align:right;
+}
+
+.about_description{
+    white-space: normal; /* Allow text to wrap */
+    overflow: auto; /* Add scrollbars when content overflows */
+    max-height: 400px; /* Limit the height to control the scrollable area */
+}
+
+.about_image{
+    width: 600px; /* Fixed width for the video container */
+    height: auto;
+    margin-right: 10px; /* Add space between the video and description */
+    overflow: hidden; 
+}
+
+.about_img_containers{
+    padding-bottom: 1000px;
 }

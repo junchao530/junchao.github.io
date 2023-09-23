@@ -35,9 +35,6 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 12vh;
-    /* position: fixed; Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    
     
 }
 
@@ -106,7 +103,7 @@ a:hover{
     width: fit-content;
     max-height: 0;
     overflow: hidden;
-    transition: all0.3 ease-in-out;
+    transition: all 0.3 ease-in-out;
 }
 
 .menu-links a{
@@ -161,9 +158,7 @@ section{
     min-height: fit-content;  
 }
 
-.section-container{
-    display: flex;
-}
+
 
 #profile{
     display: flex;
@@ -172,25 +167,31 @@ section{
     height: 60vh;
     
 }
-
+.section-container{
+    display: flex;
+}
 
 .section__pic-container{
-    display: flex;
-    height: 400px;
-    width: 400;
+    width: auto;
+    height: auto;
     margin: 50px 0;
+    display: flex;
     
 }
-/* .pfp{
-    border-radius: 75%;
-} */
-
-.section__text{
-    margin: 50px 0;
-    align-self: top;
-    text-align: center;
+.section__pic{
+    width:100;
 
 }
+.section__text {
+    width: 500px;
+  margin: 50px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack the items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center;
+}
+
 
 .section__text p{
     font-weight: 600;
@@ -279,3 +280,12 @@ section{
     gap: 1rem;
 }
 
+
+footer{
+    height: 26vh;
+    margin: 0.1rem;
+}
+
+footer p{
+    text-align: center;
+}
