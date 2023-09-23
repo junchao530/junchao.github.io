@@ -1,83 +1,82 @@
 #experience {
-    position: relative;
-    padding-top: 50px;
-  }
-  
-  .experience__title {
-    padding-bottom: 50px;
-    text-align: center;
-  }
-
-  .experience__text__p2{
-    padding-top:50px;
-    font-size: 2.0rem;
-    margin-bottom: 1rem;
-    text-align: center;
-    
-  }
-
-  .experience__container{
-    padding: 1.5rem;
-    
-    border-radius: 1.5rem;
-    border: rgb(53,53,45) 0.1rem solid;
-    /* border-color: rgb(163,163,163); */
-   
+  position: relative;
+  padding-top: 50px;
+  height: 150vh;
 }
-  .button__container {
-    display: flex;
-    flex-direction: row; /* Stack buttons horizontally */
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .experience__section__p1 {
-    border: none;
-    padding: 5px;
-    background: none;
-    cursor: pointer;
-    font-size: large;
-  }
-  
-  /* .experience__section__p1:hover {
-    border-bottom: 3px solid black;
-  } */
-  
-  .tabPanel{
-    text-align: center;
-  }
-  
 
-  .club-container {
-    /* border: 5px solid #3498db; */
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
+.experience__title {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.experience__text__p2{
+  padding-top:50px;
+  font-size: 2.0rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  
+}
+
+.experience__container{
+  padding: 1.5rem;
+  height: 64vh;
+  border-radius: 1.5rem;
+  border: rgb(53,53,45) 0.1rem solid;
+  /* border-color: rgb(163,163,163); */
+ 
+}
+.button__container {
+  display: flex;
+  flex-direction: row; /* Stack buttons horizontally */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.experience__section__p1 {
+  border: none;
+  padding: 5px;
+  background: none;
+  cursor: pointer;
+  font-size: large;
+}
+
+/* .experience__section__p1:hover {
+  border-bottom: 3px solid black;
+} */
+
+.tabPanel{
+  text-align: center;
+}
+
+
+.club-container {
+  /* border: 5px solid #3498db; */
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
 
 /* Styles for the image on the left */
 .club-image {
-    width: 300px; /* Adjust the image width as needed */
-    height: auto; /* Adjust the image height as needed */
-    margin-right: 20px;
+  width: 300px; /* Adjust the image width as needed */
+  height: auto; /* Adjust the image height as needed */
+  margin-right: 20px;
 }
 
 /* Styles for the text description on the right */
 .club-description {
-    flex: 1;
+  flex: 1;
+  align-items: top;
 }
 
 /* Optional: Add additional styling for the text description (font size, color, etc.) */
 .club-description h2 {
-    font-size: 24px;
-    color: #333;
+  font-size: 24px;
+  color: #333;
 }
 
 .club-description p {
-    font-size: 16px;
-    color: #666;
-}
-.club-container .even {
-  flex-direction: row-reverse;
+  font-size: 16px;
+  color: #666;
 }
