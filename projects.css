@@ -1,5 +1,6 @@
 #projects{
     padding-top: 50px;
+    height: 100vh;
 }
 .project-border{
     border-radius: 2rem;
@@ -7,15 +8,14 @@
     border-color: rgb(163,163,163);
 
 }
-.project-container {
-    
+.project-container { 
     padding: 50px;
     align-items: flex-start;
     display: flex;
 }
 .project-video-container {
 
-    width: 600px; /* Fixed width for the video container */
+    /* Fixed width for the video container */
     height: auto;
     margin-right: 10px; /* Add space between the video and description */
     overflow: hidden; 
@@ -26,6 +26,21 @@
     width:100%;
     height: auto;
     
+}
+
+.project-details-container{
+    width: 50%; /* Adjust the width as needed */
+    max-width: 400px; /* Set a maximum width for the container */
+    height: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column; /* Stack the items vertically */
+    align-items: left; /* Center items horizontally */
+}
+
+.project-details-container p {
+    font-size: 1rem; /* Set the desired font size for paragraphs */
+
 }
 
 /* Styles for the text description and button on the right */

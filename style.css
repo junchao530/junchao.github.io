@@ -18,6 +18,8 @@ html{
 
 p{
     color: rgb(85,85,85);
+    white-space: normal; 
+    overflow-wrap: break-word;
 }
 /* transition */
 a, .btn{
@@ -172,18 +174,23 @@ section{
 }
 
 .section__pic-container{
-    width: auto;
+    max-width: 500px;
     height: auto;
     margin: 50px 0;
     display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
     
 }
 .section__pic{
-    width:100;
+    max-width: 100%; /* Set a maximum width for the image */
+    height: auto; /* Maintain the image's aspect ratio */
 
 }
 .section__text {
-    width: 500px;
+
+  
+  height: auto;
   margin: 50px 0;
   text-align: center;
   display: flex;

@@ -1,7 +1,7 @@
 #experience {
   position: relative;
   padding-top: 50px;
-  height: 150vh;
+  height: 220vh;
 }
 
 .experience__title {
@@ -22,15 +22,14 @@
   height: 64vh;
   border-radius: 1.5rem;
   border: rgb(53,53,45) 0.1rem solid;
-  /* border-color: rgb(163,163,163); */
- 
+  position: relative;
 }
 .button__container {
   display: flex;
   flex-direction: row; /* Stack buttons horizontally */
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .experience__section__p1 {
@@ -45,21 +44,74 @@
   border-bottom: 3px solid black;
 } */
 
-.tabPanel{
-  text-align: center;
+.tabPanel {
+  overflow: hidden; /* Clear any floated elements within */
+  
+
 }
 
+
+.tab-container{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+
+.tab-left-image{
+  width: 100px;
+  height: auto;
+  padding: 25px;
+ 
+}
+
+
+
+.expereince-list{
+  list-style-type: square; /* Use square bullet points */
+  margin: 0; /* Remove default margin to align with text */
+  padding-left: 20px; /* Add some left padding for spacing */
+  font-size: larger;
+
+}
+.clubs-list{
+  list-style-type: square; /* Use square bullet points */
+  margin: 0; /* Remove default margin to align with text */
+  padding-left: 20px; /* Add some left padding for spacing */
+
+}
+
+
+
+
+.tab-image-container {
+  display: flex; /* Use flexbox to arrange images horizontally */
+  justify-content: center; /* Distribute space between images */
+  align-items: flex-end; /* Align items to the bottom */
+  gap: 0.5rem;
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 20px;
+
+}
+
+.tab-bottom-image {
+  max-width: 25%; /* Adjust the maximum width of the images as needed */
+}
 
 .club-container {
   /* border: 5px solid #3498db; */
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 /* Styles for the image on the left */
 .club-image {
-  width: 300px; /* Adjust the image width as needed */
+  width: 400px; /* Adjust the image width as needed */
   height: auto; /* Adjust the image height as needed */
   margin-right: 20px;
 }
@@ -67,7 +119,7 @@
 /* Styles for the text description on the right */
 .club-description {
   flex: 1;
-  align-items: top;
+  text-align: top;
 }
 
 /* Optional: Add additional styling for the text description (font size, color, etc.) */

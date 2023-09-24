@@ -1,8 +1,180 @@
-@media screen and (max-width: 1200px){
-    #desktop-nav{
-        display:none;
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
     }
-    #hamburger-nav{
-        display:  flex;
+    .about-containers {
+      flex-wrap: wrap;
     }
-}
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+
+    #hamburger-nav {
+      display: flex;
+    }
+    #experience{
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+  
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+
+    .experience__section__p1 h3{
+      font-size: medium;
+    }
+    
+    .tab-text-content h1 ,h3{
+      font-size: medium;
+    }
+    .expereince-list li{
+      font-size: medium;
+    }
+    
+    .club-container .club-image{
+      width: 250px;
+
+    }
+
+    .club-container .club-description h2{
+      font-size: medium;
+    }
+    .club-container .club-description h5{
+      font-size: small;
+    }
+    .club-container .club-description .clubs-list{
+      font-size: small;
+    }
+    /* .about-containers {
+      margin-top: 0;
+    } */
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      
+      height: 40vh;
+    }
+    #contact{
+      padding-top: 40vh;
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+
+    #about{
+      height: 130vh;
+    }
+    /* article {
+      font-size: 1rem;
+    } */
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    /* .experience-sub-title {
+      font-size: 1.25rem;
+    } */
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+    .experience__section__p1 h3{
+      font-size: x-small;
+    }
+    
+    .tab-text-content h1 ,h3{
+      font-size: x-small;
+    }
+    .expereince-list li{
+      font-size: x-small;
+    }
+    .tab-container .tab-left-image{
+      width: 100px;
+      height: auto;
+      padding: 25px;
+    }
+    .tab-image-container .tab-bottom-image {
+      max-width: 45%; /* Adjust the maximum width of the images as needed */
+    }
+    .club-container{
+      flex-direction: column
+    }
+    .club-container .club-image{
+      width: 200px;
+
+    }
+
+    .club-container .club-description h2{
+      font-size: small;
+    }
+    .club-container .club-description h5{
+      font-size: x-small;
+    }
+    .club-container .club-description .clubs-list{
+      font-size: x-small;
+    }
+    .project-container {
+      flex-direction: column; /* Stack elements vertically in mobile view */
+  }
+
+  }
+
+  @media screen and (min-width:1200px) {
+    .section__text{
+    max-width: 300px;
+    }
+  }

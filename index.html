@@ -46,12 +46,12 @@
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Jun Chao</h1>
-            <p class="section__text__p2"><span class="auto-type"></span></p>
-            
+            <p class="section__text__p2">I'm <span class="auto-type"></span></p>
+            <p class="section__text__p2">From Calgary, Canada.</p>            
             <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
             <script>
                 var type = new Typed(".auto-type", {
-                    strings: ["Electrical and Computer Engineering Student","Data Analyist Reseracher","Robotics Technical Team Founder"],
+                    strings: ["An Electrical Engineering Student","A Data Analyist Reseracher","A Robotics Technical Team Founder"],
                     typeSpeed: 50,
                     backSpeed: 50,
                     loop: true,
@@ -76,7 +76,6 @@
         <div class="about__section__text">
             <p class="section__text__p1">Get To Know More</p>
             <h1 class="title">About Me</h1>
-            
         </div>
         <div class="about-details-container">
             <div class="about-containers">
@@ -102,15 +101,14 @@
                </div>
             </div>
         </div> 
-        <div class="about_img_containers">
-        
-            <div class="about_description">
-                <p>Lorem ipsum dolor </p>
+        <div class="about-image-container">
+            <div class="about-image-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
             </div>
-            <div class="about_image">
+            <div class="about-image">
                 <img src="./assets/A7400479.jpg" alt="Robotics" class="about-image-details"/>
             </div>
-        </div>        
+        </div>
 
     </section>
     
@@ -123,40 +121,114 @@
 
     <div class ="experience__container">
         <div class ="button__container">
-            <button onclick ="showPanel(0,'#FFFFFF')" class="experience__section__p1"> <h1>Data Analyst Researchesr</h1></button>
-            <button onclick="showPanel(1,'#FFFFFF')" class="experience__section__p1"> <h1>Technical Project Founder</h1></button>
+            <button onclick ="showPanel(0,'#FFFFFF')" class="experience__section__p1"> <h3>Data Analyst Researcher</h3></button>
+            <button onclick="showPanel(1,'#FFFFFF')" class="experience__section__p1"> <h3>Technical Project Founder</h3></button>
         </div>
-        <div class="tabPanel">something</div>
-        <div class="tabPanel">Software Lead</div>
+        <div class="tabPanel">
+            <div class="tab-container">
+                <img src="./assets/GEOS.png" alt="Geothermal" class="tab-left-image" />
+                <div class="tab-text-content">
+                    <h1><a href="https://www.ucalgary.ca/labs/geothermal-energy/centre">Energi Simulation Centre for Geothermal Systems Research</a></h1>
+                    <h3>University of Calgary | May 2023 - Present</h3>
+                    <ul class="expereince-list">
+                        <li>Developed and improved the physics-based model “SoftSenstor” (SS) for analyzing real time drilling data.
+                        </li>
+                        <li>Achieved exceptional accuracy in predicting subsurface drilling rpm of 85% contributing to cost reduction and efficiency.</li>
+                        <li>Integrated analysis work-flows into a user-friendly, interactive React front-end using FastAPI and PostgreSQL.
+                        </li>
+                        <li>Implementing neural networks for additional machine learning based features. 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-image-container">
+                <img src="./assets/geothermal.jpg" alt="geo boys" class="tab-bottom-image">
+                <img src="./assets/presentation.png" alt="presentation" class="tab-bottom-image">
+            </div>
+        </div>
+        
+        <div class="tabPanel">
+            <div class="tab-container">
+                <img src="./assets/ac_robotics_logo.jpg" alt="ACRobotics" class="tab-left-image" />
+                <div class="tab-text-content">
+                    <h1><a href="https://www.acrobotics.ca/collegiate/burnout">Alberta Collegiate Robotics-Project Burnout</a></h1>
+                    <h3>University of Calgary | Jan 2023 - Present</h3>
+                    <ul class="expereince-list">
+                        <li>Successfully fundraised $2000 dollars through participation in “Hack the House” a furniture motorization challenge..
+                        </li>
+                        <li>Utilized ROS (Robot Operating System) and Linux to construct a resilient software framework prioritizing both flexibility and efficiency.
+                        </li>
+                        <li>Engaged in extensive research involving computer vision and LiDAR technology to enhance sensor-based object detection capabilities
+                        </li>
+                        <li>Developed a virtual environment using Gazebo and RViz to simulate real-world scenarios. facilitating effective training exercises.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-image-container">
+                <img src="./assets/geothermal.jpg" alt="geo boys" class="tab-bottom-image">
+                <img src="./assets/presentation.png" alt="presentation" class="tab-bottom-image">
+            </div>
+
+        </div>
         </div>
 
         <div class ="expereince__title">
             <p class="experience__text__p2"> Clubs/Volunteering</p>
         </div>
         <div class="club-container">
-            <img src="./assets/pfp.jpg" alt="Club 1 Image" class="club-image">
+            <img src="./assets/202223-council-2.png" alt="Club 1 Image" class="club-image">
             <div class="club-description">
                 <h2>Engineering Student Society</h2>
-                <a>First Year Representative | Sept 2022- May 2023</a>
-                <p>asdfaf</p>
-                <p>asdfasf</p>
-                <p>aasdfasdf</p>
-                <p> adsafasasf</p>
+                <h5>First Year Representative | Sept 2022- May 2023</h5>
+                <ul class="clubs-list">
+                    <li>Selected as the first year representative to advocate, convey & voice the concerns of the cohort.
+                    </li>
+                    <li>Chosen to attend the Canadian Engineering Leadership Conference to represent the University of Calgary. 
+                    </li>
+                    <li>Worked with the Vice President Internal as a Graduation Director to help coordinate the grad banquet
+                    </li>
+                    <li>Shadowed Vice President of Technology and contributed to the development of a clubs website
+                    </li>
+                </ul>
             </div>
         </div>
     
         <!-- Club 2 -->
         <div class="club-container">
-            <img src="./assets/pfp.jpg" alt="Club 2 Image" class="club-image">
+            <img src="./assets/fll.jpg" alt="Club 2 Image" class="club-image">
             <div class="club-description">
                 <h2>First Lego League </h2>
-                <a>Mentor/Judge/Volunteer| Mar 2023- Present</a>
-                <p>asdfaf</p>
-                <p>asdfasf</p>
-                <p>aasdfasdf</p>
-                <p> adsafasasf</p>
+                <h5>Mentor/Judge/Volunteer| Mar 2023- Present</h5>
+                <ul class="clubs-list">
+                    <li>Selected as the first year representative to advocate, convey & voice the concerns of the cohort.
+                    </li>
+                    <li>Chosen to attend the Canadian Engineering Leadership Conference to represent the University of Calgary. 
+                    </li>
+                    <li>Worked with the Vice President Internal as a Graduation Director to help coordinate the grad banquet
+                    </li>
+                    <li>Shadowed Vice President of Technology and contributed to the development of a clubs website
+                    </li>
+                </ul>
             </div>
-          
+        </div>
+
+        <div class="club-container">
+            <img src="./assets/fll.jpg" alt="Club 2 Image" class="club-image">
+            <div class="club-description">
+                <h2>Math Tutor  </h2>
+                <h5>Elementary -Highschool| Dec 2021- Present</h5>
+                <ul class="clubs-list">
+                    <li>Facilitate individual 1 on 1 tutoring sessions with students in different mathematical subjects.
+                    </li>
+                    <li>Developed and implemented a scheduling system for on-demand tutoring throughout the week. 
+                    </li>
+                    <li>Lead specialized sessions for provincial and national mathematical competitions for ambitious students.
+                    </li>
+                    <li>Brainstormed marketing strategies to acquire new students through various social media platforms. 
+                    </li>
+                </ul>
+            </div>
         </div>
     
     <div></div>
@@ -213,14 +285,14 @@
     <section id="contact">
         <p class="section__text__p1"> Get in Touch</p>
         <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-conatiner">
+        <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img
                 src="./assets/email.png"
                 alts="Email Icon"
                 class="icon contact-icon email-icon"
                 />
-                <p><a href="mailto:junchao530@gmail.com"> junchao530@mail.com </a> </p>
+                <p><a href="mailto:junchao530@gmail.com"> junchao530@gmail.com </a> </p>
             </div>
             <div class="contact-info-container">
                 <img
