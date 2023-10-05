@@ -1,7 +1,9 @@
 #experience {
   position: relative;
   padding-top: 50px;
-  height: 220vh;
+  height: 215vh;
+  gap: 5rem;
+ 
 }
 
 .experience__title {
@@ -131,4 +133,8 @@
 .club-description p {
   font-size: 16px;
   color: #666;
+}
+
+.multi-club-container{
+  height:50vh;
 }

@@ -47,19 +47,25 @@ gap: 5rem;
 
 .about-image-container {
     display: flex;
-    flex-direction: row; /* Arrange items horizontally */
     align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
     max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
 }
 
 .about-image-text {
-    flex: 1; /* Allow the text to grow and take available space */
+    
+    max-width: 600px;
+     /* Allow the text to grow and take available space */
     padding: 20px; /* Add spacing around the text */
     box-sizing: border-box; /* Include padding in the width calculation */
 }
 
+.about-image-text p{
+    font-size: x-large;
+}
+
 .about-image {
-    flex: 1; /* Allow the image to grow and take available space */
+     /* Allow the image to grow and take available space */
     text-align: right; /* Align the image to the right within its container */
 }
 

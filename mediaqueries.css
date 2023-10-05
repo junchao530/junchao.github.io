@@ -10,6 +10,7 @@
     #projects {
       height: fit-content;
     }
+
   }
 
   @media screen and (max-width: 1200px) {
@@ -22,6 +23,7 @@
     }
     #experience{
       margin-top: 2rem;
+
     }
     #profile,
     .section-container {
@@ -49,7 +51,7 @@
       font-size: medium;
     }
     .expereince-list li{
-      font-size: medium;
+      font-size: small;
     }
     
     .club-container .club-image{
@@ -65,6 +67,15 @@
     }
     .club-container .club-description .clubs-list{
       font-size: small;
+    }
+
+    .tabPanel .tab-container{
+      flex-direction: column;
+      
+    }
+
+    .about-image-container{
+      flex-direction: column;
     }
     /* .about-containers {
       margin-top: 0;
@@ -84,6 +95,10 @@
       height: 83vh;
       margin-bottom: 0;
     }
+    #projects{
+      height: 10vh;
+    }
+
 
     #about{
       height: 130vh;
@@ -170,7 +185,21 @@
     .project-container {
       flex-direction: column; /* Stack elements vertically in mobile view */
   }
-
+    .about-image-container .about-image-text p{
+      font-size: small;
+    }
+  }
+  @media screen and (max-width:400px) {
+   #contact{
+    padding-top: 85vh;
+   }
+  
+   #projects{
+    margin-top: 300px;
+   }
+   #experience{
+    margin-top: 300px;
+   }
   }
 
   @media screen and (min-width:1200px) {
