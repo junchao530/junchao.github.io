@@ -272,18 +272,3 @@
     }
   }
 
-  @media screen and (max-height: 1600px) {
-    .experience__section__p1 h3{
-      font-size: small;
-    }
-    
-    .tab-text-content h1 ,h3{
-      font-size: small;
-    }
-    .expereince-list li{
-      font-size: small;
-    }
-    .tab-image-container{
-      width: 0px;
-    }
-  }
