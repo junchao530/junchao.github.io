@@ -226,3 +226,15 @@
       height: 120vh;
     }
   }
+
+
+  @media screen and (max-height: 850px) {
+    
+    #projects{
+     margin-top: 150px;
+    }
+    #experience{
+     margin-top: 150px;
+    }
+    
+  }
