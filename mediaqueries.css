@@ -236,6 +236,10 @@
     #experience{
      margin-top: 150px;
     }
+    #contacts{
+      margin-top: 150px;;
+    }
+  
     
   }
   @media screen and (max-height: 500px) {
