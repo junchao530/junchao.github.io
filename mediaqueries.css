@@ -205,9 +205,7 @@
     }
   }
   @media screen and (max-width:400px){
-   #contact{
-    padding-top: 85vh;
-   }
+
   
    #projects{
     margin-top: 300px;
@@ -231,17 +229,16 @@
   @media screen and (max-height: 850px) {
     
     #projects{
-     margin-top: 250px;
+     margin-top: 350px;
     }
     #experience{
      margin-top: 150px;
     }
-    #contacts{
-      margin-top: 150px;;
+    #contact{
+      margin-top: 300px;
     }
-  
-    
   }
+
   @media screen and (max-height: 500px) {
     #profile{
       height:180vh;
